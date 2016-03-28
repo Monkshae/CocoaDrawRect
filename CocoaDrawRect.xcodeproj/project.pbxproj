@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9AB840C1862FAE100C2D124 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D9AB840B1862FAE100C2D124 /* 1.png */; };
 		D9C6AAA71860386B009CA796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C6AAA61860386B009CA796 /* Foundation.framework */; };
 		D9C6AAA91860386B009CA796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C6AAA81860386B009CA796 /* CoreGraphics.framework */; };
 		D9C6AAAB1860386B009CA796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C6AAAA1860386B009CA796 /* UIKit.framework */; };
@@ -19,6 +20,10 @@
 		D9C6AAC21860386B009CA796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C6AAAA1860386B009CA796 /* UIKit.framework */; };
 		D9C6AACA1860386B009CA796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9C6AAC81860386B009CA796 /* InfoPlist.strings */; };
 		D9C6AACC1860386B009CA796 /* CocoaDrawRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AACB1860386B009CA796 /* CocoaDrawRectTests.m */; };
+		D9C6AAD8186039B8009CA796 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AAD6186039B8009CA796 /* MainViewController.m */; };
+		D9C6AAD9186039B8009CA796 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C6AAD7186039B8009CA796 /* MainViewController.xib */; };
+		D9C6AADC186039E4009CA796 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AADB186039E4009CA796 /* MyView.m */; };
+		D9C6AADF18603DFC009CA796 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AADE18603DFC009CA796 /* MyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9AB840B1862FAE100C2D124 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		D9C6AAA31860386B009CA796 /* CocoaDrawRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaDrawRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C6AAA61860386B009CA796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9C6AAA81860386B009CA796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,13 @@
 		D9C6AAC71860386B009CA796 /* CocoaDrawRectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaDrawRectTests-Info.plist"; sourceTree = "<group>"; };
 		D9C6AAC91860386B009CA796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9C6AACB1860386B009CA796 /* CocoaDrawRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaDrawRectTests.m; sourceTree = "<group>"; };
+		D9C6AAD5186039B8009CA796 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D9C6AAD6186039B8009CA796 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D9C6AAD7186039B8009CA796 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D9C6AADA186039E4009CA796 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		D9C6AADB186039E4009CA796 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		D9C6AADD18603DFC009CA796 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		D9C6AADE18603DFC009CA796 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +122,13 @@
 			children = (
 				D9C6AAB51860386B009CA796 /* AppDelegate.h */,
 				D9C6AAB61860386B009CA796 /* AppDelegate.m */,
+				D9C6AAD5186039B8009CA796 /* MainViewController.h */,
+				D9C6AAD6186039B8009CA796 /* MainViewController.m */,
+				D9C6AAD7186039B8009CA796 /* MainViewController.xib */,
+				D9C6AADA186039E4009CA796 /* MyView.h */,
+				D9C6AADB186039E4009CA796 /* MyView.m */,
+				D9C6AADD18603DFC009CA796 /* MyLabel.h */,
+				D9C6AADE18603DFC009CA796 /* MyLabel.m */,
 				D9C6AAB81860386B009CA796 /* Images.xcassets */,
 				D9C6AAAD1860386B009CA796 /* Supporting Files */,
 			);
@@ -118,6 +138,7 @@
 		D9C6AAAD1860386B009CA796 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9AB840B1862FAE100C2D124 /* 1.png */,
 				D9C6AAAE1860386B009CA796 /* CocoaDrawRect-Info.plist */,
 				D9C6AAAF1860386B009CA796 /* InfoPlist.strings */,
 				D9C6AAB21860386B009CA796 /* main.m */,
@@ -220,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C6AAB11860386B009CA796 /* InfoPlist.strings in Resources */,
+				D9C6AAD9186039B8009CA796 /* MainViewController.xib in Resources */,
+				D9AB840C1862FAE100C2D124 /* 1.png in Resources */,
 				D9C6AAB91860386B009CA796 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C6AADF18603DFC009CA796 /* MyLabel.m in Sources */,
+				D9C6AADC186039E4009CA796 /* MyView.m in Sources */,
 				D9C6AAB71860386B009CA796 /* AppDelegate.m in Sources */,
+				D9C6AAD8186039B8009CA796 /* MainViewController.m in Sources */,
 				D9C6AAB31860386B009CA796 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +467,7 @@
 				D9C6AAD11860386B009CA796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9C6AAD21860386B009CA796 /* Build configuration list for PBXNativeTarget "CocoaDrawRectTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +476,7 @@
 				D9C6AAD41860386B009CA796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
